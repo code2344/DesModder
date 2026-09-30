@@ -50,7 +50,7 @@ export async function sendHeartbeat(
 
   try {
     const r = await fetch(
-      "https://wakatime.com/api/v1/users/current/heartbeats",
+      "https://hackatime.hackclub.com/api/v1/users/current/heartbeats",
       {
         method: "POST",
         headers: {
